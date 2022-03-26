@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to right, #cefaf4, #95b0b8);
+}
+
+img {
+    max-width: 95%;
+}
+
+.navegador__imagen {
+    width: 7rem;
+}
