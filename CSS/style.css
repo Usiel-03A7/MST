@@ -1,9 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(to right, #cefaf4, #95b0b8);
 }
 
 img {
     max-width: 95%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navegador {
+    display: flex;
+    background-color: #00000011;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.navegador__info {
+    flex-wrap: wrap;
+    word-spacing: 5px;
+    margin-top: 1rem;
+}
+
+.navegador__info-a {
+    color: #000000;
 }
 
 .navegador__imagen {
