@@ -3,11 +3,19 @@
     padding: 0;
 }
 
-body {
-    background: linear-gradient(to right, #cefaf4, #95b0b8);
+html {
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-size: 62.5%;
+    
 }
 
-img {
+body {
+    background: linear-gradient(to right, #70aefa, #8384b3);
+
+}
+
+img {   
     max-width: 95%;
 }
 
@@ -20,6 +28,8 @@ a {
     background-color: #00000011;
     text-align: left;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
 }
 
 .navegador__info {
@@ -29,9 +39,24 @@ a {
 }
 
 .navegador__info-a {
-    color: #000000;
+    color: #0b3964;
+    font-size: 2rem;
 }
 
 .navegador__imagen {
-    width: 7rem;
+    width: 15rem;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    margin: 10rem;
+}
+.header__img {
+    
+    text-align: center;
+}
+.header__tittle {
+    font-size: 2rem;
+    text-align: center;
 }
