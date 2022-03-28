@@ -63,28 +63,26 @@ a {
 
 .about__us {
     display: flex;
-    text-align: center;
-    border: solid 2px #000;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.about__us-video {
-    margin: auto 0;
-}
+.about__us-video {}
 
 .about__us-info {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 10rem;
-    margin: 0 auto;
 }
 
-.about__us-info P {
-    margin-top: 2rem;
-    font-size: 1.3rem;
+.about__us-info h2 {
+    text-align: center;
+    font-size: 3rem;
     width: 35rem;
 }
 
-#video {
-    border-radius: 5px;
+.about__us-info p {
+    margin-top: 0;
+    font-size: 18px;
+    width: 35rem;
 }
