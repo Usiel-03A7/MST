@@ -7,15 +7,13 @@ html {
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;
     font-size: 62.5%;
-    
 }
 
 body {
     background: linear-gradient(to right, #70aefa, #8384b3);
-
 }
 
-img {   
+img {
     max-width: 95%;
 }
 
@@ -35,7 +33,7 @@ a {
 .navegador__info {
     flex-wrap: wrap;
     word-spacing: 5px;
-    margin-top: 1rem;
+    margin: auto 0;
 }
 
 .navegador__info-a {
@@ -46,17 +44,47 @@ a {
 .navegador__imagen {
     width: 15rem;
 }
+
 .header {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     margin: 10rem;
 }
+
 .header__img {
-    
     text-align: center;
 }
+
 .header__tittle {
     font-size: 2rem;
     text-align: center;
+}
+
+.about__us {
+    display: flex;
+    text-align: center;
+    border: solid 2px #000;
+}
+
+.about__us-video {
+    margin: auto 0;
+}
+
+.about__us-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.about__us-info P {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    width: 35rem;
+}
+
+#video {
+    border-radius: 5px;
 }
