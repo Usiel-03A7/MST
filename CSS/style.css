@@ -23,7 +23,7 @@ a {
 
 .navegador {
     display: flex;
-    background-color: #00000011;
+    background-color: #ffffffa2;
     text-align: left;
     justify-content: space-around;
     position: sticky;
@@ -87,24 +87,62 @@ a {
     margin-bottom: 0;
 }
 
+.middleg {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+
 .microsoft__tittle {
     width: 95%;
-    
     align-items: center;
-    margin: 0 auto;
+    margin: auto 0;
     font-size: 10rem;
     color: #70aefa21;
     text-align: center;
-    position: relative;
-    
-    
+    left: 1%;
 }
+
 .microsoft__tittle-info {
+    margin: 0 auto;
     color: #000000;
     font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 15%;
-    
-    
+    top: 28%;
+    left: 10%;
+}
+
+.global__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.global {
+    border: solid 2px #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.global__img {
+    width: 55rem;
+    border: solid 2px #000;
+}
+
+.icon {
+    width: 10rem;
+    height: 5rem;
+}
+
+.global__container_i {
+    display: flex;
+    border: solid 2px red;
+    flex-direction: row;
+}
+
+.global__container-icon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.global__container-icon .icon2 {
+    grid-row: 2 / 3;
 }
