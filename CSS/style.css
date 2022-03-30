@@ -319,6 +319,33 @@ a {
 .mapa {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center;    
+}
+.mapa__containr h2 {
+    font-size: 3rem;
+}
+.directions__world {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.directions__world-pais img {
+    width: 15rem;
+    margin: 0 auto;
+}
+.directions__world-pais p {
+    width: 15rem;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.facebook {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin: 5rem 0 5rem 0;
     
+}
+.facebook svg {
+    color: #000000;
 }
