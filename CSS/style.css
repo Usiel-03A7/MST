@@ -270,23 +270,26 @@ a {
 }
 .call {
     display: flex;
-    width: 15rem;
-    
+    width: 18rem;
     margin-left: 55rem;
     justify-content: space-around;
 }
 .mail{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 15rem;
-    justify-content: space-around;
-    
     margin-right: 55rem;   
+    gap: 1rem;
 }
 .call p{
     margin: auto 0;
 }
 .mail p{
+    
     margin: auto 0;
+}
+.font__p {
+    font-size: 1.3rem;
 }
 .submit {
     
