@@ -218,3 +218,23 @@ a {
     margin: 0 auto;
     
 }
+.services__container-info {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 55rem;
+    height: 25rem;
+    margin: 0 auto;
+    grid-gap: 5rem;
+}
+.services__container-info img {
+    height: 10rem;
+    margin: auto  0;
+}
+.services__container-info-p h3  {
+    font-size: 2rem;
+}
+.services__container-info-p p {
+    font-size: 1.5rem;
+}
