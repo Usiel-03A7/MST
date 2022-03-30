@@ -116,33 +116,34 @@ a {
     flex-direction: row;
 }
 
-.global {
-    border: solid 2px #000;
+.global {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+.global__imagen{
+   margin: auto 0;
+   width: 50rem;
+   
+}
+.global__info {
+    
+   flex-wrap: wrap;
+   width: 80rem;
+}
+.global__info h3 {
+ font-size: 3rem;
+}
+.global__info-icon {
     display: flex;
     flex-direction: row;
 }
-
-.global__img {
-    width: 55rem;
-    border: solid 2px #000;
+.global__info-icon p {
+    font-size: 2rem;
 }
-
-.icon {
+.global__info-icon img {
     width: 10rem;
-    height: 5rem;
-}
-
-.global__container_i {
-    display: flex;
-    border: solid 2px red;
-    flex-direction: row;
-}
-
-.global__container-icon {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.global__container-icon .icon2 {
-    grid-row: 2 / 3;
 }
